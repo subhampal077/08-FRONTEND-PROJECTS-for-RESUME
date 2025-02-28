@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+  font-weight: 700;
+}
+
+.App {
+  text-align: center;
+  height: 60%;
+}
+
+.app__header {
+  width: 100%;
+  padding-block: 10px;
+  padding-inline: 20px;
+}
+
+.app__form {
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+  background-color: #e9e9eb;
+  width: 100%;
+  padding-block: 16px;
+  padding-left: 20px;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app__input {
+  flex: 1;
+}
+
+.app__sendButton {
+  flex: 0;
+}
+
+.app__h1,
+.app__h2 {
+  color: #0b81ff;
+}
+
+@media (max-width: 450px) {
+  .app__h1 {
+    font-size: 28px;
+  }
+}

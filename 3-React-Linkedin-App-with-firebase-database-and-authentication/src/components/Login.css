@@ -1,0 +1,41 @@
+.login {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  height: calc(100vh - 54px);
+}
+
+.login > img {
+  object-fit: contain;
+  height: 50px;
+  margin-bottom: 16px;
+}
+
+.login > form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.login > form > input {
+  width: 300px;
+  height: 44px;
+  font-size: 17px;
+  padding-inline: 10px;
+  border-radius: 4px;
+}
+
+.login > form > button {
+  color: white;
+  background-color: #0074b1;
+  border-radius: 4px;
+  font-size: 18px;
+  height: 44px;
+}
+
+.login__register {
+  color: #0074b1;
+  font-weight: 600;
+  cursor: pointer;
+}
