@@ -73,11 +73,11 @@ const BannerHome = () => {
                 <h1 className="md:text-4xl text-2xl font-bold text-white">
                   {item?.title || item?.name || item?.original_name}
                 </h1>
-                <p>{item.overview.slice(0, 140)}...</p>
+                <p>{item?.overview.slice(0, 140)}...</p>
                 <div className="flex gap-3">
-                  <span>Rating: {Number(item.vote_average).toFixed(1)}+</span>
+                  <span>Rating: {Number(item?.vote_average).toFixed(1)}+</span>
                   <span>|</span>
-                  <span>View: {Number(item.popularity).toFixed(0)}</span>
+                  <span>View: {Number(item?.popularity).toFixed(0)}</span>
                 </div>
                 <button
                   onClick={() => {
